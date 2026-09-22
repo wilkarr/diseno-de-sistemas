@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["pytest", "test_singleton.py"]
+CMD ["python", "builder.py"]
